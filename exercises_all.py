@@ -1,6 +1,7 @@
 """
 Question 1
-You are given a list of strings from which you want to generate all the unique values.
+You are given a list of strings from which you want to generate all the unique
+values.
 
 For example, if you were given this list:
 
@@ -14,9 +15,11 @@ You can use this list for this exercise.
 
 l = ['AAPL', 'AAPL', 'Aapl', 'aapl', 'MSFT']
 Question 2
-Using the same data we saw in Question 1, the goal is to find all the unique values in a case-insensitive fashion.
+Using the same data we saw in Question 1, the goal is to find all the unique
+values in a case-insensitive fashion.
 
-For example, AAPL, Aapl and aapl should each be considered to be the same value.
+For example, AAPL, Aapl and aapl should each be considered to be the same
+value.
 
 Question 3
 Given this data structure:
