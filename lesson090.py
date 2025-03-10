@@ -67,6 +67,18 @@ print(consolidated)
 
 consolidated = list(s1 | s2 | s3)
 print(consolidated)
+print('='*80)
+
+
+sold = {'w1', 'w2', 'w3', 'w4'}
+returned = {'w1'}
+non_returned = sold - returned
+print(non_returned)
+
+
+
+
+
 
 
 
