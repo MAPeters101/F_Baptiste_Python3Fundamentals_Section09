@@ -47,8 +47,26 @@ print(s1 | s2)
 print(s1 & s2)
 print(s1 - s2)
 print(s2 - s1)
+print('-'*80)
 
 
+str_1 = 'python is an awesome language!'
+str_2 = 'a python is also a snake'
+set_1 = set(str_1)
+set_2 = set(str_2)
+print(set_1)
+print(set_2)
+print(set_1 & set_2)
+print()
+
+s1 = {'FB', 'AMZN', 'AAPL', 'NFLX', 'GOOG', 'MSFT'}
+s2 = {'BABA', 'WMT', 'COST'}
+s3  = {'TSLA', 'F', 'GM'}
+consolidated = s1 | s2 | s3
+print(consolidated)
+
+consolidated = list(s1 | s2 | s3)
+print(consolidated)
 
 
 
