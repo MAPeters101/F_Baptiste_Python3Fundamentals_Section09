@@ -38,6 +38,18 @@ s3 = set('abc')
 print(s1 < s3)
 print(s1 <= s3)
 print(s1 == s3)
+print('-'*80)
+
+
+s1 = set('abc')
+s2 = set('bcd')
+print(s1 | s2)
+print(s1 & s2)
+print(s1 - s2)
+print(s2 - s1)
+
+
+
 
 
 
