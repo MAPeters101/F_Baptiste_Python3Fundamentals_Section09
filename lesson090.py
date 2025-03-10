@@ -26,8 +26,18 @@ print(s)
 s.discard('x')
 print(s)
 #s.remove('x')
+print('-'*80)
 
-
+s1 = set('abc')
+s2 = set('abcd')
+print(s1 < s2)
+print(s1 <= s2)
+print(s2 >= s1)
+print(s2 > s1)
+s3 = set('abc')
+print(s1 < s3)
+print(s1 <= s3)
+print(s1 == s3)
 
 
 
