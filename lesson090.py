@@ -91,6 +91,8 @@ print(alphabet)
 print('-'*80)
 
 
-
+text = 'The quick brown fox jumps over the lazy dog'
+print(set(string.ascii_letters) - set(text))
+print(set(string.ascii_letters.casefold()) - set(text.casefold()))
 
 
