@@ -74,10 +74,21 @@ sold = {'w1', 'w2', 'w3', 'w4'}
 returned = {'w1'}
 non_returned = sold - returned
 print(non_returned)
+print('='*80)
 
 
-
-
+alphabet = set('abcdefghijklmnopqrstuvwxyz')
+import string
+print(string.ascii_lowercase)
+print(string.ascii_uppercase)
+print(string.ascii_letters)
+print(string.whitespace)
+print(string.punctuation)
+print(string.printable)
+print(string.hexdigits)
+alphabet = set(string.ascii_letters)
+print(alphabet)
+print('-'*80)
 
 
 
