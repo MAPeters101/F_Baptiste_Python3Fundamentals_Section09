@@ -15,5 +15,19 @@ print(s)
 
 s.add(200)
 print(s)
+print('-'*80)
+
+
+s = set('abc')
+print(s.remove('a'))
+print(s)
+print(s.discard('b'))
+print(s)
+s.discard('x')
+print(s)
+#s.remove('x')
+
+
+
 
 
